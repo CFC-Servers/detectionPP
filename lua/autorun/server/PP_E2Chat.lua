@@ -1,4 +1,5 @@
 local IsValid = IsValid
+local math_min = math.min
 local CHAT_DISTANCE = 250 * 250
 
 hook.Add( "InitPostEntity", "DetectionPP_SetupChat", function()
